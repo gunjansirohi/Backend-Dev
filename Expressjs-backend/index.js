@@ -10,6 +10,7 @@ app.get("/",(req,res)=>{
     res.send("Welcome to load page");
 })
 
+
 app.get("/students",(req,res)=>{
     res.json(students);
 })
